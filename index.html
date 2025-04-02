@@ -1,0 +1,36 @@
+
+<!DOCTYPE html>
+<html lang="zh">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
+  <title>王总专属刷题神器---要心情美美哒哦</title>
+  <script src="https://cdn.tailwindcss.com"></script>
+  <link href="https://fonts.googleapis.com/css2?family=ZCOOL+KuaiLe&display=swap" rel="stylesheet">
+  <script crossorigin src="https://unpkg.com/react@18/umd/react.development.js"></script>
+  <script crossorigin src="https://unpkg.com/react-dom@18/umd/react-dom.development.js"></script>
+  <script defer src="app.js"></script>
+  <style>
+    body {
+      font-family: 'ZCOOL KuaiLe', cursive;
+      background-image: url('https://cdn.pixabay.com/photo/2017/03/17/08/56/background-2156582_1280.png');
+      background-size: cover;
+      background-attachment: fixed;
+      background-repeat: no-repeat;
+    }
+  </style>
+</head>
+<body class="text-gray-900 relative">
+  <!-- 贴纸 -->
+  <img src="https://cdn.pixabay.com/photo/2022/06/09/15/35/stickers-7252562_1280.png" 
+       class="w-20 h-20 absolute top-3 left-3 rotate-[15deg]" />
+  <img src="https://cdn.pixabay.com/photo/2022/06/09/15/35/stickers-7252559_1280.png" 
+       class="w-20 h-20 absolute bottom-3 right-3 rotate-[-10deg]" />
+
+  <!-- 音效 -->
+  <audio id="sound-good" src="https://assets.mixkit.co/active_storage/sfx/1549/1549-preview.mp3"></audio>
+  <audio id="sound-bad" src="https://assets.mixkit.co/active_storage/sfx/1701/1701-preview.mp3"></audio>
+
+  <div id="root"></div>
+</body>
+</html>
